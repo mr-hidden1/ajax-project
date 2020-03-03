@@ -1,0 +1,34 @@
+$(document.head).append(`
+    <template id="currency-card">
+        <div class="card currency-card">
+       
+            <h4>TITLE</h4>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            <p class="short-name">SHORT</p>
+            
+            <hr />
+            <button class="button-navy btn ">MORE</button>
+        </div>
+</template>
+    
+
+<template id="live-reports">
+    
+    <h1>WIP</h1>
+
+</template>
+
+    
+
+<template id="about">
+    
+    <h1>I suck dicks</h1>
+    <p>And I like it</p>
+    <img src="proov.jpg" alt="Love it, huh? =D" />
+
+</template>
+
+`);
