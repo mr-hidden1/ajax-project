@@ -1,8 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto&display=swap");
 
 body {
-    font-family: 'Roboto', system-ui;
+  font-family: "Roboto", system-ui;
   color: var(--light);
   background: var(--dark);
 }
@@ -48,10 +47,10 @@ header {
 }
 
 h1 {
-    font-family: 'Abril Fatface', system-ui;
-    margin: .3em 0;
-    text-transform: uppercase;
-    font-size: 42.0px;
+  font-family: "Abril Fatface", system-ui;
+  margin: 0.3em 0;
+  text-transform: uppercase;
+  font-size: 42px;
 }
 
 a:hover {
@@ -91,18 +90,22 @@ nav ul {
     transform: translateX(0);
   }
 }
+.loading_img {
+  position: absolute;
+  text-align: center;
+}
 
 header {
-position: sticky;
-top: 0;
+  position: sticky;
+  top: 0;
 
-z-index: 1000;
+  z-index: 1000;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
 
-  background: rgba(0,0,0,.6);
+  background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(15px);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
@@ -133,7 +136,7 @@ z-index: 1000;
   height: 34px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -147,8 +150,8 @@ z-index: 1000;
   right: 0;
   bottom: 0;
   background-color: rgba(46, 98, 158, 0.664);
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -159,8 +162,8 @@ z-index: 1000;
   left: 4px;
   bottom: 4px;
   background-color: blueviolet;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
@@ -168,7 +171,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
@@ -186,11 +189,11 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.button-navy{
+.button-navy {
   color: white;
-background-color: navy;
+  background-color: navy;
 }
-.button-navy:hover{
+.button-navy:hover {
   color: white;
   background-color: navy;
 }

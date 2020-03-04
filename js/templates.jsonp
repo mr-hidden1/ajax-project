@@ -10,7 +10,7 @@ $(document.head).append(`
             <p class="short-name">SHORT</p>
             
             <hr />
-            <button class="button-navy btn ">MORE</button>
+            <button class="button-navy btn" onClick="getCoinDetail('ID')">MORE</button>
         </div>
 </template>
     
